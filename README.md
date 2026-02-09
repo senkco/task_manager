@@ -1,6 +1,6 @@
 # Task Management Application
-
-A command-line task management application built with Python and MongoDB, demonstrating OOP principles, custom algorithms, and database interaction.
+Simple Python task manager application
+A command-line task management application built with Python and MongoDB
 
 ## Features
 
