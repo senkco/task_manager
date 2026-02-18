@@ -1,5 +1,8 @@
 """
 Database handler for MongoDB operations.
+
+
+dont hard code the database credentials
 """
 from typing import List, Optional, Dict, Any
 from pymongo import MongoClient
@@ -105,6 +108,9 @@ class DatabaseHandler:
             
         Returns:
             bool: True if successful, False otherwise
+
+        deserialize
+        data structures
         """
         try:
             result = self._collection.update_one(

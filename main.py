@@ -1,5 +1,20 @@
 """
 Command-line interface for the Task Management Application.
+
+
+
+task management
+validation handling in the task class
+
+
+break down to multiple components if the code is getting too long >20 lines
+
+dictionary mapping instead of if else (adds scalability)
+
+optimization on long lines of codes
+use dictionary mapping instead of if else (indexing approach)
+
+use main.py to just run the script
 """
 from task_manager import TaskManager
 from database import DatabaseHandler
